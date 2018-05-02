@@ -1,12 +1,11 @@
 # ai-memory-game-js
+Memory Matching Cards Game, Version: 2.0
+
 Simple artificial intelligence memory game where a user competes against 
 an intelligent agent to find pairs of images. The agent and the user don't
 have any information about the cards when the game begins. As they begin to
 flip the cards, the agent starts storing the information of cards. 
 (image + position -> card).
-
-Open index.html, and choose a theme to play.
-Memory Matching Cards Game, Version: 2.0
 
 Choices that the AI takes:
  1) If the agent has information of where a pair is located, it automatically
@@ -23,7 +22,8 @@ Choices that the AI takes:
  Rule A: Every time a card is flipped either by the user or the agent, the
          card information is stored so that the agent has its information
          for future flips.
- Rule B: Agent always flips a card that has not been flipped before to not
+
+Rule B: Agent always flips a card that has not been flipped before to not
          limit itself to acquire new information.
          It will only flip cards that have been flipped before if all the
          cards have been flipped already, which from that point on, the
