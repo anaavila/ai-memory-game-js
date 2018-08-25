@@ -56,10 +56,6 @@ body, html {
 	margin: 1px;
 }
 
-.card_pos:hover {
- 	opacity: 0.5;
- }
-
 /*
  *
  * Modals
